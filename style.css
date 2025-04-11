@@ -31,7 +31,7 @@ padding: 0.5vw 8vw 2vw 5vw; /* top, right, bottom, left */  display: flex;
 
 /* Text starts in the top-left with padding */
 #typewriter {
-  font-size: clamp(1rem, 5vw, 6vh);
+  font-size: clamp(1rem, 5vw, 7vh);
   max-width: 90vw;
   line-height: 1.4;
   word-wrap: break-word;
