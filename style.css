@@ -1,0 +1,50 @@
+/* Box model reset */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Base layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 2%;
+  background: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: #b5d1cc;
+  overflow: hidden;
+}
+
+/* Container fills the space */
+.container {
+  background: #172713;
+  height: 100%;
+  width: 100%;
+padding: 0.5vw 8vw 2vw 5vw; /* top, right, bottom, left */  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Text starts in the top-left with padding */
+#typewriter {
+  font-size: clamp(1rem, 5vw, 6vh);
+  max-width: 90vw;
+  line-height: 1.4;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+/* Link styling */
+a {
+  color: #b5d1cc;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+	color: #fa9442;
+}
